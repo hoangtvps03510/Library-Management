@@ -1,0 +1,5 @@
+administrator account :
+user: admin
+password: admin@123
+
+client account: you're allowed to create 
