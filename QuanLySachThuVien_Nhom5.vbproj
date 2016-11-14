@@ -111,10 +111,10 @@
     <Compile Include="Quản lý.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Thêm danh sách.Designer.vb">
-      <DependentUpon>Thêm danh sách.vb</DependentUpon>
+    <Compile Include="Thêm sách.Designer.vb">
+      <DependentUpon>Thêm sách.vb</DependentUpon>
     </Compile>
-    <Compile Include="Thêm danh sách.vb">
+    <Compile Include="Thêm sách.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Thống Kê.Designer.vb">
@@ -173,8 +173,8 @@
     <EmbeddedResource Include="Quản lý.resx">
       <DependentUpon>Quản lý.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Thêm danh sách.resx">
-      <DependentUpon>Thêm danh sách.vb</DependentUpon>
+    <EmbeddedResource Include="Thêm sách.resx">
+      <DependentUpon>Thêm sách.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Thống Kê.resx">
       <DependentUpon>Thống Kê.vb</DependentUpon>
