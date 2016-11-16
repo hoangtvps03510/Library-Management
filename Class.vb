@@ -1,7 +1,7 @@
 ﻿
 Class Class1
     Public Function source() As String
-        Dim chuoiketnoi As String = "workstation id=QLSachThuVien.mssql.somee.com;packet size=4096;user id=hoangtvps03510_SQLLogin_1;pwd=fs9zh4uu55;data source=QLSachThuVien.mssql.somee.com;persist security info=False;initial catalog=QLSachThuVien"
+        Dim chuoiketnoi As String = "Data Source=(local);AttachDbFilename=" + My.Application.Info.DirectoryPath.ToString + "\QLThuVien_Agile.mdf;Integrated Security=True"
         Return chuoiketnoi
     End Function
 

@@ -36,10 +36,5 @@ Public Class frmDangNhap
         frmDangKiUser.Show()
         frmDangKiUser.Location = New Point(240, 150)
     End Sub
-    'thoát form
-    Private Sub btnThoatDN_Click(sender As Object, e As EventArgs) Handles btnThoatDN.Click
-        Me.Close()
-    End Sub
-
 
 End Class

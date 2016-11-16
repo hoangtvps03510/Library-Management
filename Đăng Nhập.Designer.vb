@@ -22,7 +22,6 @@ Partial Class frmDangNhap
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnThoatDN = New System.Windows.Forms.Button()
         Me.btnDangNhap = New System.Windows.Forms.Button()
         Me.txtMatKhau = New System.Windows.Forms.TextBox()
         Me.txtTenDangNhap = New System.Windows.Forms.TextBox()
@@ -30,15 +29,6 @@ Partial Class frmDangNhap
         Me.lblTen1 = New System.Windows.Forms.Label()
         Me.btnDangKi = New System.Windows.Forms.Button()
         Me.SuspendLayout()
-        '
-        'btnThoatDN
-        '
-        Me.btnThoatDN.Location = New System.Drawing.Point(118, 177)
-        Me.btnThoatDN.Name = "btnThoatDN"
-        Me.btnThoatDN.Size = New System.Drawing.Size(87, 27)
-        Me.btnThoatDN.TabIndex = 5
-        Me.btnThoatDN.Text = "Thoát"
-        Me.btnThoatDN.UseVisualStyleBackColor = True
         '
         'btnDangNhap
         '
@@ -78,7 +68,7 @@ Partial Class frmDangNhap
         Me.lblTen1.AutoSize = True
         Me.lblTen1.Location = New System.Drawing.Point(27, 32)
         Me.lblTen1.Name = "lblTen1"
-        Me.lblTen1.Size = New System.Drawing.Size(90, 15)
+        Me.lblTen1.Size = New System.Drawing.Size(89, 15)
         Me.lblTen1.TabIndex = 10
         Me.lblTen1.Text = "Tên đăng nhập:"
         '
@@ -97,7 +87,6 @@ Partial Class frmDangNhap
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(314, 217)
         Me.Controls.Add(Me.btnDangKi)
-        Me.Controls.Add(Me.btnThoatDN)
         Me.Controls.Add(Me.btnDangNhap)
         Me.Controls.Add(Me.txtMatKhau)
         Me.Controls.Add(Me.txtTenDangNhap)
@@ -111,7 +100,6 @@ Partial Class frmDangNhap
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents btnThoatDN As System.Windows.Forms.Button
     Friend WithEvents btnDangNhap As System.Windows.Forms.Button
     Friend WithEvents txtMatKhau As System.Windows.Forms.TextBox
     Friend WithEvents txtTenDangNhap As System.Windows.Forms.TextBox
